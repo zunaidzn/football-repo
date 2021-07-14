@@ -1,0 +1,106 @@
+/* fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap");
+* {
+  margin: 0;
+  font-family: "Lora", serif;
+}
+/* header-styles ---------------- */
+.header-styles {
+  height: 677px;
+  margin-bottom: 76px;
+  background-color: #2d25a0;
+}
+.section-1 {
+  display: flex;
+}
+.banner {
+  width: 50%;
+}
+
+.banner img {
+  width: 556px;
+  height: 438px;
+  margin-top: 153px;
+  margin-right: 140px;
+}
+.b2 {
+  color: #ffffff;
+  width: 485px;
+  height: 230px;
+  margin-top: 207px;
+  margin-left: 156px;
+  font-weight: bold;
+  font-size: 64px;
+}
+
+.banner a {
+  width: 168px;
+  height: 44px;
+  margin-top: 26px;
+  background: #e02c6d;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 24px;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+  transition: ease-in, transform 1s;
+}
+.banner a:hover {
+  transform: scaleX(1.1);
+}
+
+/*----------------- players-styles
+------------------------ ---------------------- */
+main {
+  width: 100%;
+}
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.players {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-evenly;
+  margin-right: 210px;
+  margin-left: 180px;
+  grid-column-gap: 44px;
+  grid-row-gap: 27px;
+}
+
+.player {
+  padding: 15px;
+  width: 330px;
+  height: 474px;
+  box-shadow: 1px 1px 4px 1px rgb(228, 201, 201);
+  margin-bottom: 20px;
+}
+.player img {
+  width: 100%;
+}
+/* this is footer----------------------------------------  */
+
+footer img {
+  width: 300px;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* --------------------Media Queries---------------------- */
+/* Mobile-devices */
+@media (max-width: 688px) {
+  .container {
+    width: 100%;
+  }
+  .players {
+    grid-template-columns: 1fr;
+  }
+}
